@@ -21,7 +21,7 @@ LOCAL_SRC_FILES:=                                      \
                   main.cpp                             \
 
 ifeq ($(BOARD_WIFI_VENDOR), realtek)
-LOCAL_SRC_FILES += ../../hardware/realtek/wlan/netd/SoftapController_realtek.cpp
+LOCAL_SRC_FILES += ../../hardware/realtek/cm8723u/wlan/netd/SoftapController_realtek.cpp
 else
 LOCAL_SRC_FILES += SoftapController.cpp
 endif
